@@ -1,0 +1,25 @@
+[project]
+name = "jupyter-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipython>=9.4.0",
+    "jupyterlab>=4.4.4",
+    "jupyterlab-execute-time>=3.2.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "plotly>=6.2.0",
+    "polars>=1.31.0",
+    "scipy>=1.16.0",
+    "toolplot",
+    "toolstr",
+    "tooltime",
+]
+
+[tool.uv.sources]
+tooltime = { path = "../tooltime", editable = true }
+toolstr = { path = "../toolstr", editable = true }
+toolplot = { path = "../toolplot", editable = true }
