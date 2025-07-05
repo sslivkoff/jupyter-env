@@ -21,6 +21,18 @@ alias uvjl='uv run --project ~/repos/jupyter-env jupyter lab --notebook-dir="$HO
 alias i='uv run --project ~/repos/jupyter-env ipython'
 ```
 
+Update dependencies
+```bash
+# check what can be updated
+uv lock --upgrade --dry-run
+
+# gather updates
+uv lock --upgrade
+
+# sync updates
+uv sync
+```
+
 ## Add extensions
 
 view active extensions with `uv run jupyter labextension list`
