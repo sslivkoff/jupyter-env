@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "ipython>=9.4.0",
+    "jupyter-ai[all]>=2.31.5",
     "jupyterlab>=4.4.4",
     "jupyterlab-execute-time>=3.2.0",
     "matplotlib>=3.10.3",
@@ -13,6 +14,7 @@ dependencies = [
     "pandas>=2.3.0",
     "plotly>=6.2.0",
     "polars>=1.31.0",
+    "rich>=14.0.0",
     "scipy>=1.16.0",
     "toolplot",
     "toolstr",
