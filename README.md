@@ -15,7 +15,7 @@ uv sync
 Add to `~/.profile`:
 ```bash
 # start jupyter lab server
-alias uvjl='uv run --project ~/repos/jupyter-env jupyter lab --notebook-dir="$HOME/notebooks"'
+alias j='uv run --project ~/repos/jupyter-env jupyter lab --notebook-dir="$HOME/notebooks"'
 
 # start ipython session
 alias i='uv run --project ~/repos/jupyter-env ipython'
