@@ -1,0 +1,10 @@
+{
+    "preferences": {
+        "default_formatter": {
+            "python": "ruffformat"
+        }
+    },
+    "ruffformat": {
+        "args": ["--line-length", "80", "--config", "format.quote-style = 'single'"]
+    }
+}	

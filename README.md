@@ -41,6 +41,12 @@ view active extensions with `uv run jupyter labextension list`
 uv run jupyter server extension enable jupyterlab_execute_time
 ```
 
+#### Softlink jupyter extension settings
+
+```bash
+ln -s ./extension_settings/jupyterlab_code_formatter/ ~/.jupyter/lab/user-settings/
+```
+
 ## Add rust kernel to jupyter
 
 ```bash
