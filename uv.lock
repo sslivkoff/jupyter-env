@@ -1830,12 +1830,14 @@ dependencies = [
     { name = "paradigm-garlic" },
     { name = "plotly" },
     { name = "polars" },
+    { name = "polars-evm" },
     { name = "python-docx" },
     { name = "python-pptx" },
     { name = "rclone-python" },
     { name = "rich" },
     { name = "ruff" },
     { name = "scipy" },
+    { name = "toolcache" },
     { name = "toolplot" },
     { name = "toolstr" },
     { name = "tooltime" },
@@ -1860,12 +1862,14 @@ requires-dist = [
     { name = "paradigm-garlic", editable = "../garlic" },
     { name = "plotly", specifier = ">=6.2.0" },
     { name = "polars", specifier = ">=1.31.0" },
+    { name = "polars-evm", specifier = ">=0.2.6" },
     { name = "python-docx", specifier = ">=1.2.0" },
     { name = "python-pptx", specifier = ">=1.0.2" },
     { name = "rclone-python", specifier = ">=0.1.23" },
     { name = "rich", specifier = ">=14.0.0" },
     { name = "ruff", specifier = ">=0.12.3" },
     { name = "scipy", specifier = ">=1.16.0" },
+    { name = "toolcache", specifier = ">=0.5.0" },
     { name = "toolplot", editable = "../toolplot" },
     { name = "toolstr", editable = "../toolstr" },
     { name = "tooltime", editable = "../tooltime" },
@@ -3364,6 +3368,18 @@ wheels = [
 ]
 
 [[package]]
+name = "polars-evm"
+version = "0.2.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pycryptodome" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/de/bb/961f64bbe81e2d73bd7f316762aa304709a554c51ff2910870569108f783/polars_evm-0.2.6.tar.gz", hash = "sha256:54a47bfbd4cf0a25e4dcf5c380e43f91175e492f9da7907778a621f64058e12d", size = 24466, upload-time = "2025-05-25T17:29:44.083Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2f/f2/b988aa51cda95859ca8e0004c3aad26830e826ee9d957efa4e55331bda52/polars_evm-0.2.6-py3-none-any.whl", hash = "sha256:c48bc650fcfc25f9fc41f7542a3133beb4ca549a72a90a56299ca677ac3b7c1f", size = 23600, upload-time = "2025-05-25T17:29:42.627Z" },
+]
+
+[[package]]
 name = "prometheus-client"
 version = "0.22.1"
 source = { registry = "https://pypi.org/simple" }
@@ -4487,6 +4503,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/cc/18/0bbf3884e9eaa38819ebe46a7bd25dcd56b67434402b66a58c4b8e552575/tomlkit-0.13.3.tar.gz", hash = "sha256:430cf247ee57df2b94ee3fbe588e71d362a941ebb545dec29b53961d61add2a1", size = 185207, upload-time = "2025-06-05T07:13:44.947Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/bd/75/8539d011f6be8e29f339c42e633aae3cb73bffa95dd0f9adec09b9c58e85/tomlkit-0.13.3-py3-none-any.whl", hash = "sha256:c89c649d79ee40629a9fda55f8ace8c6a1b42deb912b2a8fd8d942ddadb606b0", size = 38901, upload-time = "2025-06-05T07:13:43.546Z" },
+]
+
+[[package]]
+name = "toolcache"
+version = "0.5.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tooltime" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d3/cd/822a41db54c2bfec19df594250c0d267ba6d25d7a27c5e8f96109b752bbe/toolcache-0.5.0.tar.gz", hash = "sha256:47f99f80294122a738e63df4e770a1323bbfa8e9530872affff4335ccaa71904", size = 27218, upload-time = "2022-06-29T06:52:29.854Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b9/b3/8b098329727dc9b2999fe01262a41ea73e80a9d0f39802a8c105f7394ff1/toolcache-0.5.0-py3-none-any.whl", hash = "sha256:442d0393d9025f2c7f3109267fb91304ef5ab0ca0e051d2a4a383e36b6b2e06f", size = 25185, upload-time = "2022-06-29T06:52:26.857Z" },
 ]
 
 [[package]]
