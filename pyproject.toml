@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "base58>=2.1.1",
+    "borsh-construct>=0.1.0",
     "duckdb>=1.3.2",
     "dune-spice>=0.2.7",
     "ipython>=9.4.0",
+    "jupysql>=0.11.1",
+    "jupysql-plugin>=0.4.5",
     "jupyter-ai[all]>=2.31.5",
     "jupyter-copilot>=0.1.4",
     "jupyterlab>=4.4.4",
@@ -28,6 +32,9 @@ dependencies = [
     "rich>=14.0.0",
     "ruff>=0.12.3",
     "scipy>=1.16.0",
+    "solana-state",
+    "solana-queries",
+    "solders>=0.26.0",
     "toolcache>=0.5.0",
     "toolplot",
     "toolstr",
@@ -41,6 +48,8 @@ toolstr = { path = "../toolstr", editable = true }
 toolplot = { path = "../toolplot", editable = true }
 paradigm-absorb = { path = "../absorb", editable = true }
 paradigm-garlic = { path = "../garlic", editable = true }
+solana-state = { path = "../solana_state", editable = true }
+solana-queries = { path = "../solana_queries", editable = true }
 
 [tool.ruff.format]
 quote-style = "single"
