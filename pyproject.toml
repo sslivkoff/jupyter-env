@@ -40,6 +40,10 @@ dependencies = [
     "toolstr",
     "tooltime",
     "tuna>=0.5.11",
+    "tooltree",
+    "kaleido>=1.1.0",
+    "cryptotrees",
+    "primarch",
 ]
 
 [tool.uv.sources]
@@ -50,6 +54,9 @@ paradigm-absorb = { path = "../absorb", editable = true }
 paradigm-garlic = { path = "../garlic", editable = true }
 solana-state = { path = "../solana_state", editable = true }
 solana-queries = { path = "../solana_queries", editable = true }
+tooltree = { path = "../tooltree", editable = true }
+cryptotrees = { path = "../cryptotrees", editable = true }
+primarch = { path = "../primarch", editable = true }
 
 [tool.ruff.format]
 quote-style = "single"
