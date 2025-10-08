@@ -22,7 +22,7 @@ alias i='uv run --project ~/repos/jupyter-env ipython'
 
 # this allows python shebangs to use the jupyter-env python
 # replace ~/repos/jupyter-env with the path to this repo
-export PATH="~/repos/jupyter-env/.venv/bin:$PATH"
+export PATH="$HOME/repos/jupyter-env/.venv/bin:$PATH"
 ```
 
 Update dependencies
