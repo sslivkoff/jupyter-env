@@ -46,6 +46,10 @@ dependencies = [
     "primarch",
     "pyperclip>=1.11.0",
     "mirkwood",
+    "jupyter-collaboration==4.0.2",
+    "jupyter-mcp-tools>=0.1.4",
+    "datalayer-pycrdt==0.12.17",
+    "playwright>=1.55.0",
 ]
 
 [tool.uv.sources]
