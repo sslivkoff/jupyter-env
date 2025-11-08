@@ -50,6 +50,9 @@ dependencies = [
     "jupyter-mcp-tools>=0.1.4",
     "datalayer-pycrdt==0.12.17",
     "playwright>=1.55.0",
+    "anthropic>=0.66.0",
+    "jupyter-console>=6.6.3",
+    "maturin>=1.9.6",
 ]
 
 [tool.uv.sources]
